@@ -1,0 +1,111 @@
+h1           {font-size: 92px;}
+body         {background-color:#AAB8BF;}
+/* Style settings for the navigation area */
+nav          {font-size: 36px;
+              text-decoration: none;}
+nav a:link   {color: #7F7954}
+nav a:visited{color: #2f231e}
+nav a:hover  {color: #7f6354}
+
+footer       {position: absolute;
+              top: 70%;
+              background-color: #FFFFFF;
+              width: 961px;
+              text-align: center;
+              left:480px;
+              color: #1C4054}
+/* Style settings for form and table on the merch page */
+form         {text-align: left;
+              padding: 1em;
+              border: 5px solid #54707F;}
+
+table        {margin: auto;
+              border: 1px solid #54707F;
+              width: 400px;
+              border-collapse: collapse;
+              border: 5px solid #54707F;}
+td,th        {border: 1px solid #54707F;
+              padding: 5px}
+tr           {color: #FFFFFF}
+.text        {text-align: center;}
+tr:nth-of-type(odd) {background-color: #BFB1AA;}
+td           {text-align: center}
+
+/* These class declarations help position the content on the pages, I did this
+to alow the content to stack on one another. This gave me the oppertunity to 
+have a background image on the pages and also helped with the navigation area on 
+the left side of the page. */
+              .container {
+                position: relative;
+                text-align: center;
+                color: white;
+              }
+              .nav {
+                position:absolute;
+                background-image: url(nav.png);
+                left: 480px;
+                top: 8px;
+                opacity: 0.65;
+              }
+              .home {
+                position: absolute;
+                left:512px;
+                top: 180px;
+                text-decoration: none
+              }
+              .history {
+                position: absolute;
+                left: 502px;
+                top: 300px;
+                text-align: center;
+                text-decoration: none
+              }
+              .merch {
+                position: absolute;
+                left: 502px;
+                top: 460px;
+                text-align: center;
+                text-decoration: none;
+              }
+              .centered {
+                position: absolute;
+                top: 45%;
+                left: 50%;
+                transform: translate(-37%, -50%);
+              }
+              .ourhistory  {font-size: 54px;
+                color:#FFFFFF;
+                position: absolute;
+                top: 9%;
+                left: 39%;
+                transform: translate(-37%, -50%);
+              }
+              .paragraph   {width: 490px;
+                text-align: left;
+                font-size: 18px;
+                position: absolute;
+                top: 47%;
+                left: 59%;
+                transform: translate(-37%, -50%);
+              }
+              .audio {
+                position: absolute;
+                top: 18%;
+                left: 38.5%;
+                transform: translate(-37%, -50%);
+              }
+              .sweatshirt {
+                position: absolute;
+                top: 35%;
+                left: 63%;
+                transform: translate(-37%, -50%);
+                border: 5px solid #2f231e;
+              }
+              .info {
+                position: absolute;
+                top: 48%;
+                left: 42%;
+                transform: translate(-37%, -50%);
+                background-color:#7f6354;
+                border: 5px solid #54707F;
+              }
